@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font: PP mori;
+    color: white;
+}
+.container{
+    background-image: linear-gradient(rgb(14, 151, 236),rgb(98, 177, 133));
+    border-radius: 20px;
+    width: 90%;
+    max-width: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:4% 3%;
+    margin:3vh auto;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: first baseline;
+    gap:10px;
+}
+
+.header input{
+    width: 80%;
+    height: 6vh;
+    border: none;
+    padding: 0 3vw;
+    border-radius: 100px;
+    flex :1;
+    color: black;
+}
+.header i{
+    cursor: pointer;
+}
+.wimg{
+    width: 170px;
+}
+.weather h1{
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 700;
+}
+.weather h2{
+    font-size: 2vw;
+    font-weight: 300;
+
+}
+.weather{
+    text-align: center;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 4vw;
+}
+.col{
+    margin-top:25px;
+    display: flex;
+}
+.col div p{
+    font-weight: 500;
+    text-align:left;
+    margin: 0px 10px;
+    
+}
+.details img{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+
+}
+.humidity,.wind{
+    font-size: 28px;
+}
